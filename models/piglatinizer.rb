@@ -1,5 +1,4 @@
 class PigLatinizer
-<<<<<<< HEAD
   def piglatinize(str)
     alpha = ('a'..'z').to_a
     vowels = %w[a e i o u]
@@ -18,7 +17,7 @@ class PigLatinizer
         str[1..-1] + str[0] + 'ay'
       end
     end.join(" ")
-=======
+
   def piglatinize(word)
     alpha = ('a'..'z').to_a
     vowels = %w[a e i o u]
@@ -38,6 +37,5 @@ class PigLatinizer
     else
       word
     end
->>>>>>> b7c5d727ac1262b6bb356ef00c964fb18a280d1e
   end
 end
